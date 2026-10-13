@@ -1,12 +1,12 @@
 import {ChangeDetectionStrategy, Component, inject, OnInit} from '@angular/core';
-import {NewsStore} from '../../../../news/application/news.store';
-import {Source} from '../../../../news/domain/model/source.entity';
+import {NewsStore} from '../../../../SportsFree/application/sportsfree.store';
+import {Source} from '../../../../SportsFree/domain/model/source.entity';
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from '@angular/material/sidenav';
 import {MatToolbar} from '@angular/material/toolbar';
-import {SourceList} from '../../../../news/presentation/components/source-list/source-list';
+import {SourceList} from '../../../../SportsFree/presentation/components/source-list/source-list';
 import {MatIcon} from '@angular/material/icon';
 import {LanguageSwitcher} from '../language-switcher/language-switcher';
-import {ArticleList} from '../../../../news/presentation/components/article-list/article-list';
+import {ArticleList} from '../../../../SportsFree/presentation/components/article-list/article-list';
 import {Footer} from '../footer/footer';
 import {MatIconButton} from '@angular/material/button';
 
