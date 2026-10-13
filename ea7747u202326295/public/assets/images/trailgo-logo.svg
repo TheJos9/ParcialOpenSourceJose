@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" role="img" aria-label="TrailGo">
+  <rect width="60" height="60" rx="14" fill="#1f6b4f"/>
+  <path d="M8 44 24 15l10 18 8-12 11 23H8Z" fill="#d9f99d"/>
+  <path d="M23 44 34 27l10 17" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="39" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#1f6b4f">TrailGo</text>
+</svg>

@@ -2,8 +2,8 @@ import {computed, inject, Service, signal} from '@angular/core';
 import {Source} from '../domain/model/source.entity';
 import {Article} from '../domain/model/article.entity';
 import {SportsfreeApi} from '../infrastructure/sportsfree-api';
-import {LogoDevApi} from '../../shared/infrastructure/logo-dev-api';
-import {Url} from '../../shared/domain/model/url';
+import {LogoDevApi} from '../../outdoor-centers/infrastructure/logo-dev-api';
+import {Url} from '../../outdoor-centers/domain/model/url';
 
 @Service()
 

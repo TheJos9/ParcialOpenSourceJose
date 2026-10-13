@@ -4,7 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import {TranslateLoader, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',

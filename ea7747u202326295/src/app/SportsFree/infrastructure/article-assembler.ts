@@ -1,8 +1,8 @@
 import {ArticleResource, TopHeadlinesResponse} from './top-headlines-response';
 import {Article} from '../domain/model/article.entity';
-import {LogoDevApi} from '../../shared/infrastructure/logo-dev-api';
-import {DateTime} from '../../shared/domain/model/date-time';
-import {Url} from '../../shared/domain/model/url';
+import {LogoDevApi} from '../../outdoor-centers/infrastructure/logo-dev-api';
+import {DateTime} from '../../outdoor-centers/domain/model/date-time';
+import {Url} from '../../outdoor-centers/domain/model/url';
 import {Source} from '../domain/model/source.entity';
 import {inject, Service} from '@angular/core';
 

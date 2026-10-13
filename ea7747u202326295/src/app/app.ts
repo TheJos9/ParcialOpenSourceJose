@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, signal} from '@angular/core';
-import {Layout} from './shared/presentation/components/layout/layout';
+import {Layout} from './outdoor-centers/presentation/components/layout/layout';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import {Layout} from './shared/presentation/components/layout/layout';
   styleUrl: './app.css'
 })
 /**
- * Root component hosting the shared layout shell.
+ * Root component hosting the outdoor-centers layout shell.
  */
 export class App {
   /** Application title signal used by templates and tests. */
