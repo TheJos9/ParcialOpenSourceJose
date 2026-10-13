@@ -1,0 +1,21 @@
+{
+  "app": {
+    "title": "CatchUp News"
+  },
+  "sources": {
+    "title": "News Sources"
+  },
+  "articles": {
+    "title": "Top Headlines"
+  },
+  "article": {
+    "read-more": "Read more",
+    "published-at": "Published on",
+    "about-source": "About {{sourceName}}",
+    "by-author": "By {{authorName}}"
+  },
+  "source": {
+    "close": "Close",
+    "visit-website": "Visit Website"
+  }
+}

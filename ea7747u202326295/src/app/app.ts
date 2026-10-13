@@ -1,12 +1,17 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {ChangeDetectionStrategy, Component, signal} from '@angular/core';
+import {Layout} from './shared/presentation/components/layout/layout';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
+  imports: [Layout],
   templateUrl: './app.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
+  styleUrl: './app.css'
 })
+/**
+ * Root component hosting the shared layout shell.
+ */
 export class App {
-  protected readonly title = signal('ea7747u202326295');
+  /** Application title signal used by templates and tests. */
+  protected readonly title = signal('catch-up');
 }
