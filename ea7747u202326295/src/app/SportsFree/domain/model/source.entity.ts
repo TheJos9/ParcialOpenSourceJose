@@ -1,4 +1,4 @@
-import {Url} from '../../../outdoor-centers/domain/model/url';
+import {Url} from '../../../outdoor-center/domain/model/url';
 
 export class Source {
 

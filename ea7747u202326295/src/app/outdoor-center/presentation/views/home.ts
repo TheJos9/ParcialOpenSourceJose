@@ -17,7 +17,7 @@ import { OutdoorCenterSummaryComponent } from '../components/outdoor-center-summ
     </section>
     @if (error()) { <div class="error-banner">{{ error() }}</div> }
     <section class="section-block">
-      <div class="section-heading"><h2>{{ 'my-outdoor-centers' | translate }}</h2><span>{{ centers().length }} centers</span></div>
+      <div class="section-heading"><h2>{{ 'my-outdoor-center' | translate }}</h2><span>{{ centers().length }} centers</span></div>
       <div class="centers-grid">
         @for (center of centers(); track center.id) {
           <app-outdoor-center-summary [center]="center" [reservations]="reservations()" />

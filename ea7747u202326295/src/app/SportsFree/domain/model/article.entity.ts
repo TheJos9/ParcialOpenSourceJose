@@ -1,6 +1,6 @@
 import {Source} from './source.entity';
-import {DateTime} from '../../../outdoor-centers/domain/model/date-time';
-import {Url} from '../../../outdoor-centers/domain/model/url';
+import {DateTime} from '../../../outdoor-center/domain/model/date-time';
+import {Url} from '../../../outdoor-center/domain/model/url';
 
 export class Article {
   author: string;

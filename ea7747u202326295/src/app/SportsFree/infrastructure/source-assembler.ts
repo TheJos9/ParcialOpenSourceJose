@@ -1,7 +1,7 @@
 import {SourceResource, SourcesResponse} from './sources-response';
-import {LogoDevApi} from '../../outdoor-centers/infrastructure/logo-dev-api';
+import {LogoDevApi} from '../../outdoor-center/infrastructure/logo-dev-api';
 import {Source} from '../domain/model/source.entity';
-import {Url} from '../../outdoor-centers/domain/model/url';
+import {Url} from '../../outdoor-center/domain/model/url';
 import {inject, Service} from '@angular/core';
 
 @Service()
